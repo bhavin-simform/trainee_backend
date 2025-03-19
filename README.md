@@ -58,7 +58,7 @@ Before running the backend application, you need to configure the MySQL database
 1. Clone and go to the backend directory by run this command
    ```bash
    git clone https://github.com/bhavin-simform/trainee_backend.git
-   cd trainne_backend
+   cd trainee_backend
 
 2. Follow this steps:
    ```bash
