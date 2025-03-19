@@ -52,13 +52,6 @@ Before running the backend application, you need to configure the MySQL database
 
 ---
 
-## Backend Setup
-
-1. Go to the backend directory by running the following command:
-   ```bash
-   cd trainne_backend
-
-
 
 ## Backend Setup 
 
@@ -66,8 +59,13 @@ Before running the backend application, you need to configure the MySQL database
    ```bash
    cd trainne_backend
 
-2. Install the packges using 
+2. Follow this steps:
+   ```bash
+   sudo apt-get install python3-pip
+   pip install flask flask_cors mysql_connector dotenv
+
+3. Install the packges using 
     ```bash
     python server.py
 
-3. Backend application will start/run in this URL http://localhost:5000
+4. Backend application will start/run in this URL http://localhost:5000
