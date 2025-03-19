@@ -14,6 +14,7 @@ This project consists of:
 
 ## Note: Make sure you have the flask installed on the system if not then run the pip install flask and configure the MySQL database according to your credential
 
+
 ## Backend Setup 
 
 1. go to the backend directory by run this command
