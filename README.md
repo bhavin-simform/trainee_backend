@@ -50,6 +50,10 @@ Before running the backend application, you need to configure the MySQL database
 
    Make sure to replace `your_password` with the actual password you've set for the MySQL user.
 
+
+4. **If you are facing error while running the backend app then run this command:
+   ```bash
+   ALTER USER 'todo_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';
 ---
 
 
