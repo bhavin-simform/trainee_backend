@@ -64,7 +64,7 @@ Before running the backend application, you need to configure the MySQL database
    ```bash
    sudo apt-get install python3-venv
    python3 -m venv venv
-   source myvenv/bin/activate
+   source venv/bin/activate
    sudo apt-get install python3-pip
    pip install flask flask_cors mysql_connector dotenv
 
