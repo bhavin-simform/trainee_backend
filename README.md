@@ -46,6 +46,7 @@ Before running the backend application, you need to configure the MySQL database
      DB_NAME=todo_app
      DB_USER=todo_user
      DB_PASSWORD=your_password
+     FRONTEND_URL="http://your_url:port"
      ```
 
    Make sure to replace `your_password` with the actual password you've set for the MySQL user.
